@@ -1,0 +1,32 @@
+.ba-svg-middle {
+  height: 340px;
+}
+
+.ba-row {
+}
+
+.ba-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0 115px;
+
+  h3 {
+    font-size: 36px;
+    font-weight: normal;
+    color: $text-color;
+    margin-bottom: 0;
+  }
+}
+
+.ba-svg-middle {
+  background-color: #333333;
+  font-family: "Aleo";
+  font-weight: 400;
+  a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,33 @@
+.ba-header {
+  background-color: $primary-color;
+  height: 80px;
+  &__bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 33px;
+  }
+}
+
+.ba-menu {
+  list-style: none;
+  margin: 0;
+  font-size: 14px;
+  img {
+    display: block;
+  }
+  display: flex;
+
+  a {
+    text-decoration: none;
+    color: $text-color;
+  }
+  li + li {
+    margin-left: 20px;
+  }
+}
+.ba-logo-1 {
+}
+
+.ba-contact-form {
+}

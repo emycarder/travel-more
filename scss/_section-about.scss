@@ -1,0 +1,27 @@
+.ba-about {
+  padding-top: 133px;
+  padding-bottom: 120px;
+  color: $text-color;
+  background: url(../img/Rectangle_7.jpg);
+  background-position: 50%;
+  background-size: cover;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  line-height: 26px;
+  h2 {
+    font-size: 36px;
+    font-family: "Aleo";
+    font-weight: 400;
+  }
+}
+
+.ba-button {
+  background-color: $primary-color;
+  padding: 24px 38px 23px;
+  a {
+    text-decoration: none;
+    color: $text-color;
+    font-size: 16px;
+    line-height: 0;
+  }
+}

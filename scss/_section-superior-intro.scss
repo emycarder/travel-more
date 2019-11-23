@@ -1,0 +1,19 @@
+.ba-superior-intro {
+  background: url(../img/superior.jpg) 50% no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  padding-top: 254px;
+  padding-bottom: 135px;
+}
+
+.ba-sub-logo {
+  font-size: 22px;
+  letter-spacing: 5.82px;
+}
+
+.ba-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}

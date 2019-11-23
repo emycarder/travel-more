@@ -1,0 +1,37 @@
+.ba-man {
+  background: url(../img/man.jpg) 50%;
+  height: 100vh;
+  padding: 115px 0 202px;
+  h3 {
+    font-size: 36px;
+    font-family: "Aleo";
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 94px;
+  }
+  &__img {
+    width: 100%;
+    display: block;
+    line-height: 0;
+  }
+  &__text {
+    background-color: #333333;
+    padding-top: 30px;
+    padding-left: 30px;
+    box-sizing: border-box;
+
+    h4 {
+      margin-top: 0;
+    }
+
+    p {
+      font-size: 14px;
+      margin-bottom: 0;
+      line-height: 26px;
+    }
+  }
+}
+
+.ba-content {
+  display: flex;
+}
